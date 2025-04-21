@@ -11,8 +11,7 @@ Tu equipo te proporciona información sobre la estructura de los datos y tambié
 
 ### Diagrama de datos
 
-![277914398-4b37b27f-0ed0-46d9-8e09-949aef83b4d8](https://github.com/user-attachments/assets/ebb4eb3e-f6e5-481a-9a16-8eecdb9c7bfb)
-
+![381907437-ebb4eb3e-f6e5-481a-9a16-8eecdb9c7bfb](https://github.com/user-attachments/assets/f07f165f-ee30-40fe-9089-99879ffaf690)
 
 ### BBDD y tablas
 
@@ -121,8 +120,5 @@ Tendrás que ingeniártelas para cargar crear un stage en el esquema bronze de t
 
 Y finalmente... lo conseguiste. Ya puedes respirar y descansar !!!
 
-![277923513-dce2a075-160f-4fd0-92fc-02511fd7cf17](https://github.com/user-attachments/assets/6e323dc5-f84f-4aba-867c-b858a2a93943)
-
-
-
+![381907651-6e323dc5-f84f-4aba-867c-b858a2a93943](https://github.com/user-attachments/assets/e5bbe7d3-2b58-41d8-b023-0500a3764979)
 

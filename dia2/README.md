@@ -1,6 +1,6 @@
 # Transformación (Funciones y Procedimientos)
 
-Mientras tu ingestabas los datos de prueba para que negocio pudiera tener una primera visión rápida de los mismos, uno de tus compañeros ha realizado el desarrollo para ingestar estos datos directamente desde la aplicación web, creando finalmente un repositorio centralizado en Snowflake, en la base de datos CURSO_DATA_ENGINEERING_2024, esquema BRONZE tenemos ya todas las tablas cargadas.
+Mientras tu ingestabas los datos de prueba para que negocio pudiera tener una primera visión rápida de los mismos, uno de tus compañeros ha realizado el desarrollo para ingestar estos datos directamente desde la aplicación web, creando finalmente un repositorio centralizado en Snowflake, en la base de datos CURSO_DATA_ENGINEERING_2025, esquema BRONZE tenemos ya todas las tablas cargadas.
 
 Ahora, necesitamos trabajar y pulir el dato para sacar datos relevantes a partir de él, además intentaremos que esta transformación se lance de forma sencilla, este será tu nuevo cometido.
 
@@ -8,7 +8,7 @@ Ahora, necesitamos trabajar y pulir el dato para sacar datos relevantes a partir
 
 ### PASO 1: CLONING
 
-Para asegurarnos de que todos partimos de la misma situación vamos a clonar el esquema BRONZE de CURSO_DATA_ENGINEERING_2024 a nuestra propia base de datos, reescribiendo nuestro esquema BRONZE para que haya menos lío. Hemos visto el cloning en teoría y la sintaxis es muy sencilla. Aqui está la documentación de crear un objeto como clon de otro, https://docs.snowflake.com/en/sql-reference/sql/create-clone. Ya sabeís que en la documentación la sintaxis viene con muchas pamplinas al final el comando que solemos lanzar es mucho más corto y sencillo. 
+Para asegurarnos de que todos partimos de la misma situación vamos a clonar el esquema BRONZE de CURSO_DATA_ENGINEERING_2025 a nuestra propia base de datos, reescribiendo nuestro esquema BRONZE para que haya menos lío. Hemos visto el cloning en teoría y la sintaxis es muy sencilla. Aqui está la documentación de crear un objeto como clon de otro, https://docs.snowflake.com/en/sql-reference/sql/create-clone. Ya sabeís que en la documentación la sintaxis viene con muchas pamplinas al final el comando que solemos lanzar es mucho más corto y sencillo. 
 
 Pista : Siempre que tengáis un objeto ya creado y lo querais recrear sobreescribiendo el antiguo podéis usar la claúsula OR REPLACE en el comando CREATE.
 

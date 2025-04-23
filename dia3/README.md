@@ -158,8 +158,8 @@ update_gold_orders_status()
 
 Una vez creadas las tareas, no olvides activarlas, para ello:
 ```
-ALTER TASK IF EXISTS MY_SCHEMA.ROOT_TASK RESUME;
 ALTER TASK IF EXISTS MY_SCHEMA.TASK_HIJA RESUME;
+ALTER TASK IF EXISTS MY_SCHEMA.ROOT_TASK RESUME;
 ```
 
 Para comprobar si la tarea raíz (ROOT_TASK) está comprobando cada 30 segundos, que es el tiempo que le configuramos, si el stream tiene datos o no podemos lanzar una consulta en el task history y comprobarlo:
@@ -183,7 +183,7 @@ Si has llegado hasta aquí...enhorabuena!! has aprendido una parte importante y 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### PASO 6: DESCTIVAR TUS TAREAS Y ELIMINARLAS
+### PASO 6: DESACTIVAR TUS TAREAS Y ELIMINARLAS
 
 Una vez terminada la práctica...No olvidéis desactivar vuestras tareas y eliminarlas!, Gracias!!
 ```

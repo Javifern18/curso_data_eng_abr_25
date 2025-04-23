@@ -10,7 +10,7 @@ Para empezar vamos a realizar una serie de tareas previas a la creación de nues
 
 En primer lugar y para asegurarnos que todos partimos de la misma base, vamos a clonar en nuestra base de datos:
 
-Recuerda reemplazar siempre MY_DB por el nombre de tu Base de Datos:
+Recuerda reemplazar siempre MY_DB por el nombre de tu Base de Datos: 
 ```
 USE ROLE CURSO_DATA_ENGINEERING;
 USE WAREHOUSE WH_CURSO_DATA_ENGINEERING;

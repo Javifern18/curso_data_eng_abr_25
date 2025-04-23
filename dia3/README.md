@@ -120,7 +120,7 @@ https://docs.snowflake.com/en/sql-reference/sql/merge
 
 Para que no perdáis tiempo con los casteos que hicísteis ayer en la tabla de Orders...os los dejamos por aquí:
 
-Nota: Tened en cuenta que los nombres de las columnas son iguales en la tabla SILVER.ORDERS vs MY_DB.BRONZE-ORDERS_STREAM excepto para las columnas PROMO_NAME (Orders) vs PROMO_ID (Orders_Stream)
+Nota: Tened en cuenta que los nombres de las columnas son iguales en la tabla SILVER.ORDERS vs MY_DB.BRONZE.ORDERS_STREAM excepto para las columnas PROMO_NAME (Orders) vs PROMO_ID (Orders_Stream)
 ```
 ORDER_ID::varchar(100),
 SHIPPING_SERVICE::varchar(20),
